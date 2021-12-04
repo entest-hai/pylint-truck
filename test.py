@@ -3,7 +3,7 @@ Docstring
 """
 MSG = "Hello Hai Tran"
 
-# pylint: disable-msg=C0103
+
 myname = "Hai Tran"
 
 

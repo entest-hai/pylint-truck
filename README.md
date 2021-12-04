@@ -1,4 +1,4 @@
-## Setup pylint for vscode per project workspace
+## Setup pylint and trunk for vscode per project workspace
 
 **04 DEC 2021 TRAN MINH HAI**
 
@@ -49,22 +49,13 @@ Or add into line code
 # pylint: disable-msg=C0103
 ```
 
-### 5. disable checking an error by setting setting.json
-
-To ignore error D400, set this line to **setting.json**
-
+### 5. setup trunk
+install globally 
 ```
-"python.linting.pydocstyleArgs": ["--ignore=D400"]
+curl https://get.trunk.io/ -fsSL | bash
 ```
 
-To ignore error E303
-
+check 
 ```
-"python.linting.pycodestyleArgs": ["--ignore=E303"]
-```
-
-To ignore function name not snake_case
-
-```
-"python.linting.pycodestyleArgs": ["--ignore=C0103"]
+trunk check 
 ```
