@@ -59,3 +59,4 @@ check
 ```
 trunk check 
 ```
+![pylint_trunk](https://user-images.githubusercontent.com/20411077/144697668-89fc0eac-e04f-4c92-b4c7-7235815228f9.png)
